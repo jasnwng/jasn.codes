@@ -67,12 +67,12 @@
   
   app-chat {
     order: -1;
-    /* display:none; */
+    display:none;
 
   }
 
   app-work-detail {
-    display: none;
+    /* display: none; */
   }
 
   app-work-overview {
