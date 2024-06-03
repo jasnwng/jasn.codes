@@ -6,8 +6,8 @@ import { Component, Input } from '@angular/core';
   styleUrl: './work-detail.component.css'
 })
 export class WorkDetailComponent {
-  @Input() showFestify: boolean;
-  @Input() showSpot: boolean;
+  @Input() selectedProject: string;
+  // @Input() showSpot: boolean;
   constructor () {}
 
 }

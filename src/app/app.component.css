@@ -67,6 +67,10 @@
     padding-bottom: 2em; 
   }
   
+  .hide {
+    display: none;
+  }
+
   app-chat {
     order: -1;
     /* display:none; */

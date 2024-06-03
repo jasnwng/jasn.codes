@@ -26,5 +26,13 @@ img {
 }
 
 @media (min-width: 768px) {
-  
+  .work-detail-container {
+    display: none;
+    border: none;
+    padding-top: 1em;
+  }
+}
+
+.show {
+  display: block;
 }
