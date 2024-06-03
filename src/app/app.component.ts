@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'portfolioWebsite';
+  constructor() {}
+  title = 'portfolioWebsite'
+  selectedProject = 'none'
+
+  receiveMessage($event: any) {
+    this.selectedProject = $event
+  }
+
 }

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-work-detail',
@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrl: './work-detail.component.css'
 })
 export class WorkDetailComponent {
+  @Input() selectedProject: string;
+  // @Input() showSpot: boolean;
+  constructor () {}
 
 }
