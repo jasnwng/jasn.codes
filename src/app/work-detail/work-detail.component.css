@@ -4,8 +4,15 @@
 
 .work-detail-container {
   width: 95%; 
-  margin: 0 auto;
-  padding: 5em 0;
+  margin: 1em auto;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* padding-bottom: 5em; */
+  border-bottom: 1px var(--clr-text-500) solid;
+}
+
+.work-detail-container:last-child {
+  border: none;
 }
 
 h2,
@@ -14,7 +21,7 @@ p {
 }
 
 img {
-  margin-top: 5em;
+  margin: 3em 0;
   border-radius: 15px;
 }
 

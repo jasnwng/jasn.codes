@@ -9,9 +9,9 @@
   </div>
 
   <div class="container-right">
-    <app-work-overview></app-work-overview>
-    <app-work-detail></app-work-detail>
-    <app-chat></app-chat>
+    <app-work-overview (messageEvent)="receiveMessage($event)"></app-work-overview>
+    <app-work-detail [showFestify]="showFestify" [showSpot]="showSpot"></app-work-detail>
+    <app-chat *ngIf="showChat"></app-chat>
   </div>
 
   <div class="container-bottom">

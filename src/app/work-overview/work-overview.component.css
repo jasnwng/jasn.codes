@@ -1,6 +1,6 @@
 .selected-works-wrapper {
   /* background-color: var(--clr-bg-300); */
-  margin-bottom: 2em;
+  /* margin-bottom: 2em; */
 }
 
 .selected-works-container {
@@ -10,10 +10,15 @@
 }
 
 .row {
-  display: flex;
+  display: none;
   gap: 3em;
   border-bottom: 1px var(--clr-text-500) solid;
   padding: 1em 0;
+}
+
+.selected-works-heading {
+  border-bottom: 1px var(--clr-text-500) solid;
+  /* display: inline; */
 }
 
 @media (min-width: 768px) {
@@ -21,5 +26,8 @@
     background-color: var(--clr-bg-400);
     border-radius: 10px;
     padding: 2em 1em;
+  }
+  .row {
+    display: flex;
   }
 }
