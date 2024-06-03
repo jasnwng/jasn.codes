@@ -1,0 +1,12 @@
+.resume-wrapper {
+  /* border: 1px red solid; */
+  /* background-color: var(--clr-bg-400); */
+}
+
+.resume-container {
+  /* width: 95%; */
+  /* margin: 0 auto; */
+  text-align: end;
+  text-wrap: nowrap
+  /* padding: 2em 0; */
+}

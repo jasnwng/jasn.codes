@@ -1,0 +1,25 @@
+.selected-works-wrapper {
+  /* background-color: var(--clr-bg-300); */
+  margin-bottom: 2em;
+}
+
+.selected-works-container {
+  width: 95%;
+  margin: 0 auto;
+  padding: 1em 0;
+}
+
+.row {
+  display: flex;
+  gap: 3em;
+  border-bottom: 1px var(--clr-text-500) solid;
+  padding: 1em 0;
+}
+
+@media (min-width: 768px) {
+  .selected-works-container {
+    background-color: var(--clr-bg-400);
+    border-radius: 10px;
+    padding: 2em 1em;
+  }
+}

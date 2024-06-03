@@ -1,0 +1,17 @@
+.chat-wrapper {
+  background-color: var(--clr-bg-400);
+}
+
+.chat-container {
+  width: 95%;
+  margin: 0 auto;
+  padding: 2em 0;
+
+}
+
+@media (min-width: 768px) {
+  .chat-wrapper {
+    text-align: end;
+    background-color: var(--clr-bg-300)
+  }
+}

@@ -1,0 +1,17 @@
+.image-wrapper {
+  /* border: 1px green solid; */
+  /* background-color: var(--clr-bg-400) */
+}
+
+.image-container {
+  /* width: 95%; */
+  /* margin: 0 auto; */
+}
+
+
+@media (min-width: 768px) {
+  img {
+    width: 50%;
+    max-width: 500px;
+  } 
+}

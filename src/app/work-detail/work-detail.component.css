@@ -1,0 +1,23 @@
+.work-detail-wrapper {
+  /* background-color: var(--clr-bg-300); */
+}
+
+.work-detail-container {
+  width: 95%; 
+  margin: 0 auto;
+  padding: 5em 0;
+}
+
+h2,
+p {
+  display: inline;
+}
+
+img {
+  margin-top: 5em;
+  border-radius: 15px;
+}
+
+@media (min-width: 768px) {
+  
+}

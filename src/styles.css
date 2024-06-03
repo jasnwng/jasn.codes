@@ -1,1 +1,56 @@
-/* You can add global styles to this file, and also import other style files */
+/* ----------
+CSS RESET 
+----------*/
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+input, button, textarea, select {
+  font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+#root, #__next {
+  isolation: isolate;
+}
+
+/* ----------
+GLOBAL STYLES
+----------*/
+
+:root {
+  --clr-bg-300: #757263;
+  --clr-bg-400: #4D4C43;
+  --clr-bg-500: #524B43;
+  --clr-bg-800: #1e1e1e;
+  --clr-text-300: #fff;
+  --clr-text-500: #D9D9D9;
+
+}
+
+h2 {
+  color: var(--clr-text-300);
+  font-size: 1.5rem;
+}
+
+p {
+  color: var(--clr-text-500);
+  font-size: 1.5rem;
+}
+
+body {
+  background-color: var(--clr-bg-800);
+  font-family: lusitana
+}

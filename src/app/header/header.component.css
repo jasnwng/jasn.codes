@@ -1,0 +1,8 @@
+.header-wrapper {
+  /* background-color: var(--clr-bg-500); */
+}
+.header-container {
+  width: 95%;
+  margin: 0 auto;
+  padding-top: 1em;
+}
