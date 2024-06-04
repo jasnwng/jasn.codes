@@ -1,12 +1,16 @@
 <div class="work-detail-wrapper">
-  <div class="work-detail-container" [ngClass]="{'show': selectedProject == 'festify'}">
-    <h2>Festify | </h2> 
-    <p> a web application where users can explore and compile playlists for music festivals across the UK.</p>
-    <img src="../../assets/Festify.png" alt="">
+  <div class="animation-container" [ngClass]="selectedProject == 'festify' ? 'show' : 'hide'">
+    <div class="work-detail-container" >
+      <h2>Festify | </h2> 
+      <p> a web application where users can explore and compile playlists for music festivals across the UK.</p>
+      <img src="../../assets/Festify.png" alt="">
+    </div>
   </div>
-  <div class="work-detail-container" [ngClass]="{'show': selectedProject == 'spot'}">
-    <h2>Spot |</h2> 
-    <p> a social media app where users can discover and share restaurant recommendations with their friends.</p>
-    <img src="../../assets/spot.png" alt="">
+  <div class="animation-container" [ngClass]="selectedProject == 'spot' ? 'show' : 'hide'">
+    <div class="work-detail-container">
+      <h2>Spot |</h2> 
+      <p> a social media app where users can discover and share restaurant recommendations with their friends.</p>
+      <img src="../../assets/spot.png" alt="">
+    </div>
   </div>
 </div>

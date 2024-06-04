@@ -13,7 +13,7 @@
   display: none;
   gap: 3em;
   border-bottom: 1px var(--clr-text-500) solid;
-  padding: 1em 0;
+  padding: 1em 1em;
 }
 
 .selected-works-heading {
@@ -31,6 +31,8 @@ p:hover {
   /* font-weight: 700; */
   /* text-decoration: var(--clr-primary-300) wavy underline; */
 }
+
+
 
 
 @media (min-width: 768px) {

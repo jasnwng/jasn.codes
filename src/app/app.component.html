@@ -11,7 +11,7 @@
   <div class="container-right">
     <app-work-overview (messageEvent)="receiveMessage($event)"></app-work-overview>
     <app-work-detail [selectedProject]="selectedProject"></app-work-detail>
-    <app-chat [ngClass]="{'hide': selectedProject != 'none'}"></app-chat>
+    <app-chat [ngClass]="selectedProject != 'none' ? 'hide' : ''"></app-chat>
   </div>
 
   <div class="container-bottom">
@@ -21,3 +21,4 @@
     </div>
   </div>
 </div>
+<!--  -->
