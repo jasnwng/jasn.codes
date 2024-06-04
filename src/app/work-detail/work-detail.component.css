@@ -1,5 +1,6 @@
 .work-detail-wrapper {
-  /* background-color: var(--clr-bg-300); */
+  background-color: var(--clr-bg-300);
+  position: relative;
 }
 
 .work-detail-container {
@@ -26,13 +27,46 @@ img {
 }
 
 @media (min-width: 768px) {
-  .work-detail-container {
-    display: none;
+  .animation-container {
     border: none;
     padding-top: 1em;
+    display: none;
+    position: absolute;
+    /* background-color: var(--clr-bg-300); */
   }
 }
 
 .show {
   display: block;
+  animation: slide-in 600ms ;
+}
+
+.hide {
+  animation: slide-out 600ms;
+}
+
+
+@keyframes slide-in {
+  0% {
+    transform: translateY(50%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opactiy: 1;
+  }
+}
+
+
+@keyframes slide-out {
+  0% {
+    transform: translateY(0%);
+    opacity: 1;
+    display: block;
+  }
+  100% {
+    transform: translateY(-50%);
+    opacity: 0;
+    display: none;
+  }
 }
