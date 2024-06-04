@@ -37,6 +37,7 @@ GLOBAL STYLES
   --clr-bg-800: #1e1e1e;
   --clr-text-300: #fff;
   --clr-text-500: #D9D9D9;
+  --clr-primary-300: #59ACDB;
 
 }
 
@@ -53,4 +54,16 @@ p {
 body {
   background-color: var(--clr-bg-800);
   font-family: lusitana
+}
+
+a {
+  color: inherit;
+  /* font-weight: 700; */
+  /* text-decoration: underline; */
+  /* text-decoration: wavy; */
+}
+
+a:hover {
+  text-decoration: var(--clr-primary-300) wavy underline;
+  /* color: var(--clr-primary-300); */
 }
