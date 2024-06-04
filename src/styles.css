@@ -54,3 +54,15 @@ body {
   background-color: var(--clr-bg-800);
   font-family: lusitana
 }
+
+a {
+  color: inherit;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-indent: -10px;
+  
+}
