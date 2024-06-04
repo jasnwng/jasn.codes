@@ -21,6 +21,18 @@
   /* display: inline; */
 }
 
+p:hover {
+  /* text-decoration: var(--clr-primary-300) wavy underline; */
+  /* color: white; */
+}
+
+.row:hover {
+  background-color: var(--clr-bg-800);
+  /* font-weight: 700; */
+  /* text-decoration: var(--clr-primary-300) wavy underline; */
+}
+
+
 @media (min-width: 768px) {
   .selected-works-container {
     background-color: var(--clr-bg-400);
