@@ -6,3 +6,22 @@
   margin: 0 auto;
   padding-top: 1em;
 }
+
+@media (min-width: 768px) {
+
+  .header-wrapper {
+    animation: entry 4000ms ease-out 5000ms forwards;
+    opacity: 0;
+  }
+
+}
+
+
+@keyframes entry {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

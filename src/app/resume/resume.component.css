@@ -10,3 +10,22 @@
   text-wrap: nowrap
   /* padding: 2em 0; */
 }
+
+
+@media (min-width: 768px) {
+  .resume-wrapper {
+    animation: entry 4000ms ease-out 5000ms forwards;
+    opacity: 0;
+  }
+  
+}
+
+
+@keyframes entry {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

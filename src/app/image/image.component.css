@@ -17,4 +17,18 @@ img {
     width: 50%;
     max-width: 500px;
   } 
+  .image-wrapper {
+    animation: entry 4000ms ease-out 5000ms forwards;
+    opacity: 0;
+  }
+}
+
+
+@keyframes entry {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

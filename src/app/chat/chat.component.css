@@ -15,5 +15,20 @@
     text-align: end;
     background-color: var(--clr-bg-300);
     position: absolute;
+    /* opacity: 0;
+    animation: entry 1000ms ease-out forwards; */
+  }
+}
+
+
+
+@keyframes entry {
+  0% {
+    transform: translateY(-50%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
   }
 }

@@ -12,8 +12,6 @@
   gap: 2em;
   padding: 10em 0 5em 0;
   justify-content: space-around;
-
-
 }
 
 .bio-asterisk {
@@ -22,19 +20,34 @@
   margin-top: 2em;
 }
 
-.asterisk-wide-screen {
-  display: none;
-}
-
 p {
   font-size: 1.8rem;
 }
 
+.p1 {
+  opacity: 0;
+  animation: entry 2500ms ease-out forwards;
+}
 
+.p2 {
+  opacity: 0;
+  animation: entry 2500ms ease-out 1000ms forwards;
+}
+
+.asterisk-wide-screen {
+  display: none;
+}
+
+.asterisk-narrow-screen {
+  opacity: 0;
+  animation: entry 2500ms ease-out 2000ms forwards;
+}
 
 @media (min-width: 768px) {
   .asterisk-wide-screen {
     display: block;
+    opacity: 0;
+    animation: entry 4000ms ease-out 5000ms forwards;
   }
 
   .asterisk-narrow-screen {
@@ -48,5 +61,26 @@ p {
   .bio-container {
     padding: 10em 0 5em 0;
   }
-  
+
+  .p1 {
+    opacity: 0;
+    animation: entry 2500ms ease-out forwards;
+  }
+
+  .p2 {
+    opacity: 0;
+    animation: entry 2500ms ease-out 2500ms forwards;
+  }
+}
+
+
+@keyframes entry {
+  0% {
+    transform: translateY(-20%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
 }
