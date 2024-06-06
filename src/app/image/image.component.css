@@ -12,6 +12,10 @@ img {
   border-radius: 5px;
 }
 
+.image-shape {
+  animation: border-change 20000ms linear infinite alternate;
+}
+
 @media (min-width: 768px) {
   img {
     width: 50%;
@@ -60,4 +64,40 @@ img {
     transform: translateY(0vh);
     opacity: 1;
   }
+}
+
+@keyframes border-change {
+  0%{
+     border-radius: 30% 70% 60% 40% / 30% 30% 70% 70%;
+  }
+  25% {
+    border-radius: 55% 45% 71% 29% / 37% 54% 46% 63%;
+  }
+  50% {
+    border-radius: 38% 62% 30% 70% / 70% 28% 72% 30%;
+  }
+  75% {
+    border-radisu: 33% 67% 30% 70% / 63% 78% 22% 37% 
+  }
+  100% {
+    border-radius: 67% 33% 57% 43% / 53% 64% 36% 47%;
+  }
+
+
+/* 0%{
+     border-radius: 49% 51% 36% 64% / 49% 47% 53% 51%;
+  }
+  25% {
+    border-radius: 40% 60% 45% 55% / 56% 47% 53% 44%;
+  }
+  50% {
+    border-radius: 32% 68% 35% 65% / 68% 32% 68% 32%;
+  }
+  75% {
+    border-radisu: 50% 50% 26% 74% / 54% 34% 66% 46%; 
+  }
+  100% {
+    border-radius: 53% 47% 49% 51% / 45% 57% 43% 55%;
+  } */
+
 }
