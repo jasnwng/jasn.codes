@@ -17,4 +17,47 @@ img {
     width: 50%;
     max-width: 500px;
   } 
+  .image-wrapper {
+    /* animation: entry 4000ms ease-out 5000ms forwards; */
+    animation: slide-down 1200ms ease-out 2000ms forwards;
+    opacity: 0; 
+  }
+}
+
+@keyframes entry {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(2vh);
+    opacity: 0;
+  }
+  90% {
+    opactiy: 0;
+  }
+  100% {
+    transform: translateY(0vh);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-down {
+  0% {
+    transform: translateY(-2vh);
+    opacity: 0;
+  }
+  90% {
+    opactiy: 0;
+  }
+  100% {
+    transform: translateY(0vh);
+    opacity: 1;
+  }
 }

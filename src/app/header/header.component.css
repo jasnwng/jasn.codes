@@ -6,3 +6,49 @@
   margin: 0 auto;
   padding-top: 1em;
 }
+
+@media (min-width: 768px) {
+
+  .header-wrapper {
+    animation: slide-down 1200ms ease-out 000ms forwards;
+    opacity: 0;
+  }
+
+}
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(2vh);
+    opacity: 0;
+  }
+  90% {
+    opactiy: 0;
+  }
+  100% {
+    transform: translateY(0vh);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-down {
+  0% {
+    transform: translateY(-2vh);
+    opacity: 0;
+  }
+  90% {
+    opactiy: 0;
+  }
+  100% {
+    transform: translateY(0vh);
+    opacity: 1;
+  }
+}
+
+@keyframes entry {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
