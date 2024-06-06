@@ -10,13 +10,17 @@ export class WorkOverviewComponent {
 
   @Output() messageEvent = new EventEmitter<any>();
 
-  showFestify() {
-    this.messageEvent.emit('festify');
+  showProject(name: string) {
+    this.messageEvent.emit(name);
   }
 
-  showSpot() {
-    this.messageEvent.emit('spot');
-  }
+  // showFestify() {
+  //   this.messageEvent.emit('festify');
+  // }
+
+  // showSpot() {
+  //   this.messageEvent.emit('spot');
+  // }
 
   hide() {
     this.messageEvent.emit('none');

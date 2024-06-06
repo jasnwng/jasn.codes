@@ -2,15 +2,15 @@
   <div class="selected-works-wrapper">
     <div class="selected-works-container">
       <h2 class="selected-works-heading">Selected works</h2>
-      <div class="row" (mouseover)="showFestify()" (mouseleave)="hide()">
+      <div class="row" (mouseover)="showProject('festify')" (mouseleave)="hide()">
         <p>01.</p>
         <p>a personalised music app for festival fans</p>
       </div>
-      <div class="row" (mouseover)="showSpot()" (mouseleave)="hide()">
+      <div class="row" (mouseover)="showProject('spot')" (mouseleave)="hide()">
         <p>02.</p>
         <p>a savvy social networking platform for hungry friends</p>
       </div>
-      <div class="row">
+      <div class="row" (mouseover)="showProject('assist')" (mouseleave)="hide()">
         <p>03.</p>
         <p>a hassle-free logistics app for busy parents</p>
       </div>
