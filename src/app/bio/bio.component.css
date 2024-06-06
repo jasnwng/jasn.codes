@@ -25,13 +25,13 @@ p {
 }
 
 .p1 {
+  animation: slide-down 1200ms ease-out 1000ms forwards;
   opacity: 0;
-  animation: entry 2500ms ease-out forwards;
 }
 
 .p2 {
+  animation: slide-down 1200ms ease-out 2000ms forwards;
   opacity: 0;
-  animation: entry 2500ms ease-out 1000ms forwards;
 }
 
 .asterisk-wide-screen {
@@ -39,8 +39,8 @@ p {
 }
 
 .asterisk-narrow-screen {
+  animation: slide-down 1200ms ease-out 2000ms forwards;
   opacity: 0;
-  animation: entry 2500ms ease-out 2000ms forwards;
 }
 
 @media (min-width: 768px) {
