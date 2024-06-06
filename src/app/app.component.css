@@ -12,7 +12,8 @@
   opacity: 0.8;
   animation: border-change 750ms ease-in-out infinite alternate;
   display: none;
-  box-shadow: 7px 7px #888;
+  /* box-shadow: 7px 7px #888; */
+  box-shadow: 7px 7px var(--clr-text-500);
 
 }
 
