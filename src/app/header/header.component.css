@@ -1,5 +1,7 @@
 .header-wrapper {
   /* background-color: var(--clr-bg-500); */
+    animation: slide-down 1200ms ease-out 000ms forwards;
+    opacity: 0;
 }
 .header-container {
   width: 95%;
