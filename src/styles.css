@@ -53,7 +53,8 @@ p {
 
 body {
   background-color: var(--clr-bg-800);
-  font-family: lusitana
+  font-family: lusitana;
+  cursor: none;
 }
 
 a {
@@ -61,9 +62,11 @@ a {
   /* font-weight: 700; */
   /* text-decoration: underline; */
   /* text-decoration: wavy; */
+  cursor:none; 
 }
 
 a:hover {
   text-decoration: var(--clr-primary-300) wavy underline;
+  cursor: none;
   /* color: var(--clr-primary-300); */
 }
