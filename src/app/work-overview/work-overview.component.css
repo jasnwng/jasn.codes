@@ -40,8 +40,40 @@ p:hover {
     background-color: var(--clr-bg-400);
     border-radius: 10px;
     padding: 2em 1em;
+    animation: slide-down 1200ms ease-out 2000ms forwards;
+    opacity: 0;
   }
   .row {
     display: flex;
+  }
+}
+
+
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(2vh);
+    opacity: 0;
+  }
+  90% {
+    opactiy: 0;
+  }
+  100% {
+    transform: translateY(0vh);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-down {
+  0% {
+    transform: translateY(-2vh);
+    opacity: 0;
+  }
+  90% {
+    opactiy: 0;
+  }
+  100% {
+    transform: translateY(0vh);
+    opacity: 1;
   }
 }

@@ -15,8 +15,8 @@
     text-align: end;
     background-color: var(--clr-bg-300);
     position: absolute;
-    /* opacity: 0;
-    animation: entry 1000ms ease-out forwards; */
+    animation: slide-down 1200ms ease-out 1000ms forwards;
+    opacity: 0;
   }
 }
 
@@ -29,6 +29,35 @@
   }
   100% {
     transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(2vh);
+    opacity: 0;
+  }
+  90% {
+    opactiy: 0;
+  }
+  100% {
+    transform: translateY(0vh);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-down {
+  0% {
+    transform: translateY(-2vh);
+    opacity: 0;
+  }
+  90% {
+    opactiy: 0;
+  }
+  100% {
+    transform: translateY(0vh);
     opacity: 1;
   }
 }

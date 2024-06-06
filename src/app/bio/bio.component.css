@@ -46,8 +46,9 @@ p {
 @media (min-width: 768px) {
   .asterisk-wide-screen {
     display: block;
+    /* animation: entry 4000ms ease-out 5000ms forwards; */
+    animation: slide-down 1200ms ease-out 1000ms forwards;
     opacity: 0;
-    animation: entry 4000ms ease-out 5000ms forwards;
   }
 
   .asterisk-narrow-screen {
@@ -60,16 +61,21 @@ p {
 
   .bio-container {
     padding: 10em 0 5em 0;
+    /* animation: slide-down 2000ms ease-out 000ms forwards; */
+    /* opacity: 0;  */
+
   }
 
   .p1 {
+    /* animation: entry 2500ms ease-out forwards; */
+    animation: slide-down 1200ms ease-out 1000ms forwards;
     opacity: 0;
-    animation: entry 2500ms ease-out forwards;
   }
 
   .p2 {
+    /* animation: entry 2500ms ease-out 2500ms forwards; */
+    animation: slide-down 1200ms ease-out 1000ms forwards;
     opacity: 0;
-    animation: entry 2500ms ease-out 2500ms forwards;
   }
 }
 
@@ -81,6 +87,35 @@ p {
   }
   100% {
     transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(2vh);
+    opacity: 0;
+  }
+  90% {
+    opactiy: 0;
+  }
+  100% {
+    transform: translateY(0vh);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-down {
+  0% {
+    transform: translateY(-2vh);
+    opacity: 0;
+  }
+  90% {
+    opactiy: 0;
+  }
+  100% {
+    transform: translateY(0vh);
     opacity: 1;
   }
 }

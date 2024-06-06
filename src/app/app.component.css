@@ -57,8 +57,9 @@
   }
   .container-left {
     width: 50%;
-    background-color: var(--clr-bg-800);
-    animation: color 4000ms ease-out 5000ms forwards;
+    /* background-color: var(--clr-bg-800); */
+    /* animation: color 4000ms ease-out 5000ms forwards; */
+    /* animation: slide-down 2000ms ease-out 0ms forwards; */
   }
   
   .container-right {
@@ -67,8 +68,9 @@
     justify-content: space-between;
     padding-bottom: 2em; 
     position: relative;
-    animation: entry 4000ms ease-out 5000ms forwards;
-    opacity: 0;
+    /* animation: entry 4000ms ease-out 5000ms forwards; */
+    /* animation: slide-down 2000ms ease-out 0ms forwards; */
+    /* opacity: 0; */
   }
   
   .hide {
@@ -113,5 +115,34 @@
 @keyframes color {
   100% {
     background-color: var(--clr-bg-500);
+  }
+}
+
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(5vh);
+    opacity: 0;
+  }
+  90% {
+    opactiy: 0;
+  }
+  100% {
+    transform: translateY(0vh);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-down {
+  0% {
+    transform: translateY(5vh);
+    opacity: 0;
+  }
+  90% {
+    opactiy: 0;
+  }
+  100% {
+    transform: translateY(0vh);
+    opacity: 1;
   }
 }
