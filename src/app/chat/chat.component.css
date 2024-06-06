@@ -13,7 +13,7 @@
 @media (min-width: 768px) {
   .chat-wrapper {
     text-align: end;
-    background-color: var(--clr-bg-300);
+    background-color: inherit;
     position: absolute;
     animation: slide-down 1200ms ease-out 1000ms forwards;
     opacity: 0;
