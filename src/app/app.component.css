@@ -6,7 +6,12 @@
   position: absolute;
   pointer-events: none;
   background-color: var(--clr-primary-300);
+  /* background-color: var(--clr-bg-800);
+  border: 3px solid var(--clr-text-500);
+  opacity: 60%; */
+  opacity: 0.8;
   animation: pulse 700ms ease-in-out infinite alternate;
+  display: none;
 }
 
 .container {
@@ -52,6 +57,10 @@
 
 
 @media (min-width: 768px) {
+
+  .cursor {
+    display: block;
+  }
   
   .image-resume-wide {
     display: flex;
