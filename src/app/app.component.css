@@ -10,8 +10,10 @@
   border: 3px solid var(--clr-text-500);
   opacity: 60%; */
   opacity: 0.8;
-  animation: pulse 700ms ease-in-out infinite alternate;
+  animation: border-change 750ms ease-in-out infinite alternate;
   display: none;
+  box-shadow: 7px 7px #888;
+
 }
 
 .container {
@@ -175,4 +177,26 @@
     transform: scale(1.0);
     /* transform: rotate(90deg) */
   }
+}
+
+
+@keyframes border-change {
+  0%{
+     border-radius: 30% 70% 60% 40% / 30% 30% 70% 70%;
+     transform: scale(0.9);
+  }
+  25% {
+    border-radius: 55% 45% 71% 29% / 37% 54% 46% 63%;
+  }
+  50% {
+    border-radius: 38% 62% 30% 70% / 70% 28% 72% 30%;
+  }
+  75% {
+    border-radisu: 33% 67% 30% 70% / 63% 78% 22% 37% 
+  }
+  100% {
+    border-radius: 67% 33% 57% 43% / 53% 64% 36% 47%;
+     transform: scale(1);
+  }
+
 }

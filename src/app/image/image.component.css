@@ -13,7 +13,7 @@ img {
 }
 
 .image-shape {
-  animation: border-change 20000ms linear infinite alternate;
+  animation: border-change 15000ms ease-out infinite alternate;
 }
 
 @media (min-width: 768px) {
