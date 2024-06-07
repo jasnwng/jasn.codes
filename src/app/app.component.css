@@ -103,8 +103,8 @@
     padding-bottom: 2em; 
     position: relative;
     /* animation: entry 4000ms ease-out 5000ms forwards; */
-    /* animation: slide-down 2000ms ease-out 0ms forwards; */
-    /* opacity: 0%; */
+    /* animation: slide-down 2000ms ease-out 0ms forwards;
+    opacity: 0%; */
   }
 
   .bg {
@@ -136,6 +136,8 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    animation: slide-down 1200ms ease-out 2000ms forwards;
+    opacity: 0%; 
   }
 
   .image-resume-narrow {
@@ -191,7 +193,7 @@
 
 @keyframes slide-up {
   0% {
-    transform: translateY(5vh);
+    transform: translateY(2vh);
     opacity: 0%;
   }
   100% {
@@ -202,7 +204,7 @@
 
 @keyframes slide-down {
   0% {
-    transform: translateY(5vh);
+    transform: translateY(-2vh);
     opacity: 0%;
   }
   100% {
