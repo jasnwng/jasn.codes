@@ -37,9 +37,6 @@
     transform: translateY(2vh);
     opacity: 0%;
   }
-  90% {
-    opacity: 0%;
-  }
   100% {
     transform: translateY(0vh);
     opacity: 100%;
@@ -49,9 +46,6 @@
 @keyframes slide-down {
   0% {
     transform: translateY(-2vh);
-    opacity: 0%;
-  }
-  90% {
     opacity: 0%;
   }
   100% {
