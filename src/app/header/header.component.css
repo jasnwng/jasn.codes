@@ -11,10 +11,10 @@
 
 @media (min-width: 768px) {
 
-  .header-wrapper {
+  /* .header-wrapper {
     animation: slide-down 1200ms ease-out forwards;
     opacity: 0%;
-  }
+  } */
 
 }
 

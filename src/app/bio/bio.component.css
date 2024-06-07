@@ -25,12 +25,12 @@ p {
 }
 
 .p1 {
-  animation: slide-down-phone 1200ms ease-out 1000ms forwards;
+  /* animation: slide-down-phone 1200ms ease-out 1000ms forwards; */
   opacity: 0%;
 }
 
 .p2 {
-  animation: slide-down-phone 1200ms ease-out 2000ms forwards;
+  /* animation: slide-down-phone 1200ms ease-out 2000ms forwards; */
   opacity: 0%;
 }
 
