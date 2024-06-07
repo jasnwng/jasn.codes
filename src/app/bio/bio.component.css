@@ -54,8 +54,8 @@ p {
   .asterisk-wide-screen {
     display: block;
     /* animation: entry 4000ms ease-out 5000ms forwards; */
-    animation: slide-down 1200ms ease-out 1000ms forwards;
-    opacity: 0%;
+    /* animation: slide-down 1200ms ease-out 1000ms forwards;
+    opacity: 0%; */
   }
 
   .asterisk-narrow-screen {
