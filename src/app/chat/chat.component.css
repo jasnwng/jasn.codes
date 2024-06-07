@@ -40,7 +40,7 @@
     opacity: 0;
   }
   90% {
-    opactiy: 0;
+    opacity: 0;
   }
   100% {
     transform: translateY(0vh);
@@ -54,7 +54,7 @@
     opacity: 0;
   }
   90% {
-    opactiy: 0;
+    opacity: 0;
   }
   100% {
     transform: translateY(0vh);

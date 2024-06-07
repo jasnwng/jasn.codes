@@ -7,7 +7,7 @@ import { Component, HostListener, ViewChild } from '@angular/core';
 })
 export class AppComponent {
   constructor() {}
-  title = 'portfolioWebsite'
+  title = 'Jason Wong'
   selectedProject = 'none'
 
   receiveMessage($event: any) {

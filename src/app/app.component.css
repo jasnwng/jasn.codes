@@ -195,7 +195,7 @@
     opacity: 0;
   }
   90% {
-    opactiy: 0;
+    opacity: 0;
   }
   100% {
     transform: translateY(0vh);
@@ -209,7 +209,7 @@
     opacity: 0;
   }
   90% {
-    opactiy: 0;
+    opacity: 0;
   }
   100% {
     transform: translateY(0vh);
@@ -240,7 +240,7 @@
     border-radius: 38% 62% 30% 70% / 70% 28% 72% 30%;
   }
   75% {
-    border-radisu: 33% 67% 30% 70% / 63% 78% 22% 37% 
+    border-radius: 33% 67% 30% 70% / 63% 78% 22% 37% 
   }
   100% {
     border-radius: 67% 33% 57% 43% / 53% 64% 36% 47%;
