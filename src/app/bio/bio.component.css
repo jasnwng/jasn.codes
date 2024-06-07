@@ -46,9 +46,8 @@ p {
 @media (min-width: 768px) {
   .bio-container {
     padding: 0%;
-    /* animation: slide-down 2000ms ease-out 000ms forwards; */
-    /* opacity: 0%;  */
-
+    animation: slide-down 1200ms ease-out 1000ms forwards;
+    opacity: 0%;
   }
   
   .asterisk-wide-screen {
@@ -68,14 +67,14 @@ p {
 
   .p1 {
     /* animation: entry 2500ms ease-out forwards; */
-    animation: slide-down 1200ms ease-out 1000ms forwards;
-    opacity: 0%;
+    /* animation: slide-down 1200ms ease-out 1000ms forwards;
+    opacity: 0%; */
   }
 
   .p2 {
     /* animation: entry 2500ms ease-out 2500ms forwards; */
-    animation: slide-down 1200ms ease-out 1000ms forwards;
-    opacity: 0%;
+    /* animation: slide-down 1200ms ease-out 1000ms forwards;
+    opacity: 0%; */
   }
 }
 
