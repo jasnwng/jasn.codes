@@ -25,7 +25,7 @@ p {
 }
 
 @media (max-width: 767px) {
-  .p1 {
+  /* .p1 {
     animation: slide-down-phone 1200ms ease-out 1000ms forwards;
     opacity: 0%;
   }
@@ -36,6 +36,11 @@ p {
   }
   .asterisk-narrow-screen {
     animation: slide-down-phone 1200ms ease-out 2000ms forwards;
+    opacity: 0%;
+  } */
+
+  .bio-wrapper {
+    animation: slide-down-phone 1200ms ease-out 1000ms forwards;
     opacity: 0%;
   }
 }
