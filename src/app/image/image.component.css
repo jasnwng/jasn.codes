@@ -44,7 +44,7 @@ img {
     opacity: 0;
   }
   90% {
-    opactiy: 0;
+    opacity: 0;
   }
   100% {
     transform: translateY(0vh);
@@ -58,7 +58,7 @@ img {
     opacity: 0;
   }
   90% {
-    opactiy: 0;
+    opacity: 0;
   }
   100% {
     transform: translateY(0vh);
@@ -78,7 +78,7 @@ img {
     border-radius: 38% 62% 30% 70% / 70% 28% 72% 30%;
   }
   75% {
-    border-radisu: 33% 67% 30% 70% / 63% 78% 22% 37% 
+    border-radius: 33% 67% 30% 70% / 63% 78% 22% 37% 
   }
   100% {
     border-radius: 67% 33% 57% 43% / 53% 64% 36% 47%;
@@ -96,7 +96,7 @@ img {
     border-radius: 32% 68% 35% 65% / 68% 32% 68% 32%;
   }
   75% {
-    border-radisu: 50% 50% 26% 74% / 54% 34% 66% 46%; 
+    border-radius: 50% 50% 26% 74% / 54% 34% 66% 46%; 
   }
   100% {
     border-radius: 53% 47% 49% 51% / 45% 57% 43% 55%;
