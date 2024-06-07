@@ -24,24 +24,26 @@ p {
   font-size: 1.8rem;
 }
 
-.p1 {
-  /* animation: slide-down-phone 1200ms ease-out 1000ms forwards; */
-  /* opacity: 0%; */
-}
-
-.p2 {
-  /* animation: slide-down-phone 1200ms ease-out 2000ms forwards; */
-  /* opacity: 0%; */
+@media (max-width: 767px) {
+  .p1 {
+    animation: slide-down-phone 1200ms ease-out 1000ms forwards;
+    opacity: 0%;
+  }
+  
+  .p2 {
+    animation: slide-down-phone 1200ms ease-out 2000ms forwards;
+    opacity: 0%;
+  }
+  .asterisk-narrow-screen {
+    animation: slide-down-phone 1200ms ease-out 2000ms forwards;
+    opacity: 0%;
+  }
 }
 
 .asterisk-wide-screen {
   display: none;
 }
 
-.asterisk-narrow-screen {
-  animation: slide-down-phone 1200ms ease-out 2000ms forwards;
-  opacity: 0%;
-}
 
 @media (min-width: 768px) {
   .bio-container {
