@@ -26,12 +26,12 @@ p {
 
 .p1 {
   animation: slide-down 1200ms ease-out 1000ms forwards;
-  opacity: 0;
+  opacity: 0%;
 }
 
 .p2 {
   animation: slide-down 1200ms ease-out 2000ms forwards;
-  opacity: 0;
+  opacity: 0%;
 }
 
 .asterisk-wide-screen {
@@ -40,14 +40,14 @@ p {
 
 .asterisk-narrow-screen {
   animation: slide-down 1200ms ease-out 2000ms forwards;
-  opacity: 0;
+  opacity: 0%;
 }
 
 @media (min-width: 768px) {
   .bio-container {
-    padding: 0;
+    padding: 0%;
     /* animation: slide-down 2000ms ease-out 000ms forwards; */
-    /* opacity: 0;  */
+    /* opacity: 0%;  */
 
   }
   
@@ -55,7 +55,7 @@ p {
     display: block;
     /* animation: entry 4000ms ease-out 5000ms forwards; */
     animation: slide-down 1200ms ease-out 1000ms forwards;
-    opacity: 0;
+    opacity: 0%;
   }
 
   .asterisk-narrow-screen {
@@ -71,13 +71,13 @@ p {
   .p1 {
     /* animation: entry 2500ms ease-out forwards; */
     animation: slide-down 1200ms ease-out 1000ms forwards;
-    opacity: 0;
+    opacity: 0%;
   }
 
   .p2 {
     /* animation: entry 2500ms ease-out 2500ms forwards; */
     animation: slide-down 1200ms ease-out 1000ms forwards;
-    opacity: 0;
+    opacity: 0%;
   }
 }
 
@@ -85,11 +85,11 @@ p {
 @keyframes entry {
   0% {
     transform: translateY(-20%);
-    opacity: 0;
+    opacity: 0%;
   }
   100% {
     transform: translateY(0%);
-    opacity: 1;
+    opacity: 100%;
   }
 }
 
@@ -97,27 +97,27 @@ p {
 @keyframes slide-up {
   0% {
     transform: translateY(2vh);
-    opacity: 0;
+    opacity: 0%;
   }
   90% {
-    opacity: 0;
+    opacity: 0%;
   }
   100% {
     transform: translateY(0vh);
-    opacity: 1;
+    opacity: 100%;
   }
 }
 
 @keyframes slide-down {
   0% {
     transform: translateY(-2vh);
-    opacity: 0;
+    opacity: 0%;
   }
   90% {
-    opacity: 0;
+    opacity: 0%;
   }
   100% {
     transform: translateY(0vh);
-    opacity: 1;
+    opacity: 100%;
   }
 }

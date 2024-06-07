@@ -9,7 +9,7 @@
   /* background-color: var(--clr-bg-800);
   border: 3px solid var(--clr-text-500);
   opacity: 60%; */
-  opacity: 0.8;
+  opacity: 80%;
   animation: border-change 750ms ease-in-out infinite alternate;
   display: none;
   /* box-shadow: 7px 7px #888; */
@@ -104,7 +104,7 @@
     position: relative;
     /* animation: entry 4000ms ease-out 5000ms forwards; */
     /* animation: slide-down 2000ms ease-out 0ms forwards; */
-    /* opacity: 0; */
+    /* opacity: 0%; */
   }
 
   .bg {
@@ -144,7 +144,7 @@
   
   
   .hide {
-    opacity: 0;
+    opacity: 0%;
     
   }
 
@@ -175,10 +175,10 @@
 
 @keyframes entry {
   0% {
-    opacity: 0;
+    opacity: 0%;
   }
   100% {
-    opacity: 1;
+    opacity: 100%;
   }
 }
 
@@ -192,28 +192,28 @@
 @keyframes slide-up {
   0% {
     transform: translateY(5vh);
-    opacity: 0;
+    opacity: 0%;
   }
   90% {
-    opacity: 0;
+    opacity: 0%;
   }
   100% {
     transform: translateY(0vh);
-    opacity: 1;
+    opacity: 100%;
   }
 }
 
 @keyframes slide-down {
   0% {
     transform: translateY(5vh);
-    opacity: 0;
+    opacity: 0%;
   }
   90% {
-    opacity: 0;
+    opacity: 0%;
   }
   100% {
     transform: translateY(0vh);
-    opacity: 1;
+    opacity: 100%;
   }
 }
 
