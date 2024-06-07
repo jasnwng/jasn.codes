@@ -23,8 +23,8 @@ img {
   } 
   .image-wrapper {
     /* animation: entry 4000ms ease-out 5000ms forwards; */
-    animation: slide-down 1200ms ease-out 2000ms forwards;
-    opacity: 0%; 
+    /* animation: slide-down 1200ms ease-out 2000ms forwards;
+    opacity: 0%;  */
   }
 }
 
