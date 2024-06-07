@@ -41,7 +41,7 @@ p:hover {
     border-radius: 10px;
     padding: 2em 1em;
     animation: slide-down 1200ms ease-out 2000ms forwards;
-    opacity: 0;
+    opacity: 0%;
   }
   .row {
     display: flex;
@@ -53,27 +53,27 @@ p:hover {
 @keyframes slide-up {
   0% {
     transform: translateY(2vh);
-    opacity: 0;
+    opacity: 0%;
   }
   90% {
-    opacity: 0;
+    opacity: 0%;
   }
   100% {
     transform: translateY(0vh);
-    opacity: 1;
+    opacity: 100%;
   }
 }
 
 @keyframes slide-down {
   0% {
     transform: translateY(-2vh);
-    opacity: 0;
+    opacity: 0%;
   }
   90% {
-    opacity: 0;
+    opacity: 0%;
   }
   100% {
     transform: translateY(0vh);
-    opacity: 1;
+    opacity: 100%;
   }
 }
