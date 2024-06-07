@@ -1,6 +1,6 @@
 .header-wrapper {
   /* background-color: var(--clr-bg-500); */
-    animation: slide-down-phone 1200ms ease-out 000ms forwards;
+    animation: slide-down-phone 1200ms ease-out forwards;
     opacity: 0%;
 }
 .header-container {
@@ -12,7 +12,7 @@
 @media (min-width: 768px) {
 
   .header-wrapper {
-    animation: slide-down 1200ms ease-out 000ms forwards;
+    animation: slide-down 1200ms ease-out forwards;
     opacity: 0%;
   }
 
