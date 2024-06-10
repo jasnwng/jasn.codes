@@ -1,5 +1,6 @@
 .bio-wrapper {
   /* background-color: var(--clr-bg-500) */
+  /* border: 1px green solid; */
 }
 
 .bio-container {
@@ -15,13 +16,13 @@
 }
 
 .bio-asterisk {
-  font-size: 1.1rem;
+  font-size: calc(4px + 1.5vh);
   text-align: end;
   margin-top: 2em;
 }
 
 p {
-  font-size: 1.8rem;
+  font-size: calc(12px + 1.5vh);
 }
 
 .asterisk-wide-screen {
@@ -37,6 +38,7 @@ p {
 @media (min-width: 768px) {
   .bio-container {
     padding: 8em 0 0 0;
+    padding: 0;
     /* animation: slide-down 1200ms ease-out 1000ms forwards;
     opacity: 0%; */
   }
@@ -53,7 +55,7 @@ p {
   }
 
   p {
-    font-size: 2rem;
+    font-size: calc(14px + 1.5vh);
   }
 
   .p1 {

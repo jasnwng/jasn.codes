@@ -18,8 +18,9 @@ img {
 
 @media (min-width: 768px) {
   img {
-    width: 50%;
-    max-width: 500px;
+    /* width: 50%;
+    max-width: 500px; */
+    max-height: 30vh;
   } 
   .image-wrapper {
     /* animation: entry 4000ms ease-out 5000ms forwards; */
