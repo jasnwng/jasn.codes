@@ -1,5 +1,6 @@
 .header-wrapper {
   /* background-color: var(--clr-bg-500); */
+  /* border: 1px cyan solid; */
     animation: slide-down-phone 1200ms ease-out forwards;
     opacity: 0%;
 }
