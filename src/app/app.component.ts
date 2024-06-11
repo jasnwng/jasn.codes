@@ -9,9 +9,14 @@ export class AppComponent {
   constructor() {}
   title = 'Jason Wong'
   selectedProject = 'none'
+  selectedAvatar = 1
 
-  receiveMessage($event: any) {
+  receiveProject($event: any) {
     this.selectedProject = $event
+  }
+
+  receiveAvatar($event: any) {
+    this.selectedAvatar = $event
   }
 
   @ViewChild('cursor') refCursor: any;

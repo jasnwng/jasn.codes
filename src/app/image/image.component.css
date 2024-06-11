@@ -16,6 +16,14 @@ img {
   animation: border-change 15000ms ease-out infinite alternate;
 }
 
+.show {
+    display: block;
+  }
+
+.hide {
+    display: none;
+  }
+
 @media (min-width: 768px) {
   img {
     /* width: 50%;

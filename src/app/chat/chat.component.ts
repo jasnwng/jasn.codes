@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-chat',
@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrl: './chat.component.css'
 })
 export class ChatComponent {
+
+  @Output() messageEvent = new EventEmitter<any>();
+
+  showAvatar(avatar: number) {
+    this.messageEvent.emit(avatar);
+  }
 
 }

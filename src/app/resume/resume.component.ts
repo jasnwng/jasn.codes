@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-resume',
@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class ResumeComponent {
 
+  @Output() messageEvent = new EventEmitter<any>();
+
+  showAvatar(avatar: number) {
+    this.messageEvent.emit(avatar);
+  }
 }

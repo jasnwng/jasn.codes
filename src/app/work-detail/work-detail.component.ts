@@ -7,7 +7,6 @@ import { Component, Input } from '@angular/core';
 })
 export class WorkDetailComponent {
   @Input() selectedProject: string;
-  // @Input() showSpot: boolean;
   constructor () {}
 
 }

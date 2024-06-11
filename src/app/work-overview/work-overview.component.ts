@@ -6,21 +6,12 @@ import { Component, Output, EventEmitter } from '@angular/core';
   styleUrl: './work-overview.component.css'
 })
 export class WorkOverviewComponent {
-  // showFestify: boolean = true;
 
   @Output() messageEvent = new EventEmitter<any>();
 
   showProject(name: string) {
     this.messageEvent.emit(name);
   }
-
-  // showFestify() {
-  //   this.messageEvent.emit('festify');
-  // }
-
-  // showSpot() {
-  //   this.messageEvent.emit('spot');
-  // }
 
   hide() {
     this.messageEvent.emit('none');

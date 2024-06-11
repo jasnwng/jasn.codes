@@ -6,16 +6,16 @@
       <app-header></app-header>
       <app-bio></app-bio>
       <div class="image-resume-wide">
-        <app-image ></app-image>
-        <app-resume></app-resume>
+        <app-image [selectedAvatar]="selectedAvatar"></app-image>
+        <app-resume (messageEvent)="receiveAvatar($event)"></app-resume>
       </div>
     </div>
   
   
     <div class="container-right">
-      <app-work-overview (messageEvent)="receiveMessage($event)"></app-work-overview>
+      <app-work-overview (messageEvent)="receiveProject($event)"></app-work-overview>
       <app-work-detail [selectedProject]="selectedProject"></app-work-detail>
-      <app-chat [ngClass]="selectedProject != 'none' ? 'hide' : ''"></app-chat>
+      <app-chat [ngClass]="selectedProject != 'none' ? 'hide' : ''" (messageEvent)="receiveAvatar($event)"></app-chat>
     </div>
   
     <div class="container-bottom">
