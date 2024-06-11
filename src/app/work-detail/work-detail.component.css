@@ -16,10 +16,6 @@
   border-bottom: 1px var(--clr-text-500) solid;
 }
 
-.inline { 
-  display: inline;
-}
-
 .work-detail-container:last-child {
   border: none;
 }
@@ -27,6 +23,7 @@
 h2,
 p {
   display: inline;
+  text-align: center;
 }
 
 img {
@@ -34,7 +31,20 @@ img {
   border-radius: 15px;
 }
 
-@media (min-width: 768px) {
+.tech-stack {
+  font-size: calc(2px + 1.5vh);
+  background-color: var(--clr-bg-400);
+  word-spacing: 0.5em;
+border-radius: 5px;
+  }
+  
+  
+  @media (min-width: 768px) {
+    
+  .tech-stack {
+    float: right;
+    margin-top: 0.5em;
+  }
 
   
   .animation-container {
