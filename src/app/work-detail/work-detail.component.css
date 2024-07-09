@@ -32,18 +32,19 @@ img {
 }
 
 .tech-stack {
+  border-radius: 5px;
+  padding: 0.1em 0.4em;
+  margin: 0 0.1em;
   font-size: calc(2px + 1.5vh);
   background-color: var(--clr-bg-400);
-  word-spacing: 0.5em;
-border-radius: 5px;
   }
   
   
   @media (min-width: 768px) {
     
   .tech-stack {
-    float: right;
-    margin-top: 0.5em;
+    /* float: right;
+    margin-top: 0.5em; */
   }
 
   
@@ -52,7 +53,6 @@ border-radius: 5px;
     overflow: hidden;
     display: none;
     position: absolute;
-    overflow: scroll; 
     /* background-color: var(--clr-bg-300); */
     }
     
