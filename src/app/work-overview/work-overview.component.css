@@ -40,7 +40,7 @@ p:hover {
 }
 
 .link:hover {
-  border: 2px dashed var(--clr-primary-300);
+  border: 3px dashed var(--clr-primary-300);
 }
 
 .icon {
